@@ -1,0 +1,9 @@
+import sys, os
+os.chdir(os.path.dirname(__file__))
+sys.path.append(os.path.abspath('sample'))
+sys.path.append(os.path.abspath('sample.egg'))
+import sample.main
+
+
+
+
